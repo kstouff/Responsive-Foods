@@ -13,8 +13,9 @@
     font-weight: 400;
 }
 
-html{
+html {
     font-size: 62.5%;
+    scroll-behavior:smooth;
 }
 
 .container{
@@ -463,5 +464,29 @@ html{
 
 
 /*  end of Section 4 */
+
+.scroll-up-btn{
+    width: 5rem;
+    height: 5rem;
+    background-color: rgba(50, 231, 255, 0.8);
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    transition: all .5s;
+    
+}
+.scroll-up-btn:hover{
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: #32e7ff;
+    
+
+}
 
 
